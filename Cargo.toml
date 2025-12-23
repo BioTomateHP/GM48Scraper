@@ -2,6 +2,11 @@
 name = "gm48-scraper"
 version = "0.1.0"
 edition = "2024"
+description = "CLI for scraping GameMaker data files from the GM48 Game Jam"
+repository = "https://github.com/BioTomateDE/GM48Scraper"
+license = "GPL-3"
+keywords = ["gamemaker", "scraping", "cli"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1.0.100"
