@@ -1,0 +1,21 @@
+[package]
+name = "gm48-scraper"
+version = "0.1.0"
+edition = "2024"
+description = "CLI for scraping GameMaker data files from the GM48 Game Jam"
+repository = "https://github.com/BioTomateDE/GM48Scraper"
+license = "GPL-3"
+keywords = ["gamemaker", "scraping", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.53", features = ["derive"] }
+colored-print = "0.1.1"
+humansize = "2.1.3"
+reqwest = "0.12.28"
+sanitize-filename = "0.6.0"
+scraper = "0.25.0"
+tokio = { version = "1.48.0", features = ["macros", "rt-multi-thread"] }
+urlencoding = "2.1.3"
+zip = "7.0.0"
